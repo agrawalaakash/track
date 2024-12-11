@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Track_urdf">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.997E-05 0.3656 0.061179"
+        rpy="0 0 0" />
+      <mass
+        value="384.05" />
+      <inertia
+        ixx="3225.1"
+        ixy="0.00022399"
+        ixz="0.00086812"
+        iyy="153.12"
+        iyz="-0.40106"
+        izz="3375.2" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Track_urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="Iron">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Track_urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
